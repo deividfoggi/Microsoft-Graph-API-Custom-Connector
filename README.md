@@ -7,7 +7,7 @@ This connectors allows you to parse data directly from Graph API by running a RE
  - Application registered in Azure with Graph API Delegated permission for the API you will query from Power BI. Along side the permissions, go to Authentication tab in the application registration page and add the platform Desktop & Mobile with the following call back URL: https://oauth.powerbi.com/views/oauthredirect.html
  
 # Setup
-1. Open this project in Visual Studio
+1. Open this solution in Visual Studio
 2. Replace the guid in client_id text file with the guid of the application registered in Azure
 3. Open file Microsoft_Graph_API_Custom_Connector.pq, go to line 16 and ajust scopes with all the scopes your're intended to use
 4. Set build mode to release and build the solution.
