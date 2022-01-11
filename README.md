@@ -1,7 +1,7 @@
 # Microsoft-Graph-API-Custom-Connector
 This connectors allows you to parse data directly from Graph API by running a REST query in one of the Graph API endpoints.
 
-# Pre-equisites
+# Pre-requisites
  - Visual Studio 2019
  - Power Query SDK: https://marketplace.visualstudio.com/items?itemName=Dakahn.PowerQuerySDK
  - Application registered in Azure with Graph API Delegated permission for the API you will query from Power BI. Along side the permissions, go to Authentication tab in the application registration page and add the platform Desktop & Mobile with the following call back URL: https://oauth.powerbi.com/views/oauthredirect.html
